@@ -1,0 +1,98 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body    {
+    height: 100vh;
+}
+
+.footer {
+    background-color: #ff6584;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.github-footer, .twitter-footer, .linkedin-footer    {
+   color:#f9a826;
+   /* background-color: black; */
+   font-size: 20px;  
+}
+
+.nav-footer, .nav-footer-icon {
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px; */
+    padding: 20px;
+   
+}
+.li-nav-icon-footer    {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    width: 55px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-icon-footer  {
+    text-decoration: none;
+}
+
+.li-nav-footer   {
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.a-nav-footer   {
+    text-decoration: none;
+    color: white;
+}
+
+.text-footer    {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+/* <footer class="footer">
+<div class="footer-content">
+
+    <nav class="nav-footer">
+        <li class="li-nav-footer"><a href="#">Hola</a></li>
+        <li class="li-nav-footer"><a href="#">Conocimientos</a></li>
+        <li class="li-nav-footer"><a href="#">Proyectos</a></li>
+        <li class="li-nav-footer"><a href="#">Contacto</a></li>
+    </nav>
+
+    <nav class="nav-footer-icon">
+
+        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
+            <i class="devicon-twitter-plain twitter-footer "></i></a>
+        </li>
+        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
+            <i class="devicon-github-plain github-footer"></i></a>
+        </li>
+        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
+            <i class="devicon-linkedin-plain linkedin-footer "></i></a>
+        </li>
+
+    </nav>
+
+    <p>Hecho con ♥ por Barbara Villalba</p>
+
+</div>
+</footer> */

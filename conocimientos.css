@@ -1,0 +1,114 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body    {
+    height: 100vh;
+}
+.mis-conocimientos  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -10px 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #f6f7fb;
+    padding: 70px;
+}
+.div-mis-conocimientos   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.titulo-mis-conocimientos   {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+}
+.p-mis-conocimientos    {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+.titulo-mis-conocimientos, .p-mis-conocimientos {
+    padding: 10px;
+    margin: 10px;
+}
+.conocimiento   {
+    background-color: #f6f7fb;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    /* padding-left: 250px; */
+    /* align-items: center; */
+    margin: 50px;
+    
+}
+.minibox    {
+    /* display: flex;
+    flex-grow: 1; */
+    /* width: 50px;
+    height: 200px; */
+    background-color: white;
+    /* margin: 2px; */
+    /* justify-content: center;
+    flex-direction: column; */
+    border: 1px solid #dddfe5;
+    border-radius: 10px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+}
+.minibox:hover {
+    border: 1px solid #dddfe5;
+    border-radius: 10px;
+    border-color: yellow;
+}
+.iconoss    {
+    font-size: 5em;
+    margin: 5px;
+    padding: 5px;
+    background-color:  white;
+}
+.p-icono    {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.p-icono:hover  {
+    color: yellow;
+}
+
+/* <section class="mis-conocimientos">
+        <div class="div-mis-conocimientos">
+            <h1 class="titulo-mis-conocimientos">Mis conocimientos</h1>
+            <p class="p-mis-conocimientos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni perspiciatis obcaecati quos tenetur quo ex cupiditate corrupti eveniet.</p>
+        </div>
+        <div class="conocimiento">
+            <div class="minibox">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <p class="p-icono">HTML5</p>
+            </div>
+            <div class="minibox">
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <p class="p-icono">CSS3</p>
+            </div>
+            <div class="minibox">
+                <i class="devicon-sass-original colored"></i>
+                <p class="p-icono">SASS</p>
+            </div>
+            <div class="minibox">
+                <i class="devicon-javascript-plain colored"></i>
+                <p class="p-icono">JAVASCRIPT</p>
+            </div>
+            <div class="minibox">
+                <i class="devicon-react-original-wordmark colored"></i>
+                <p class="p-icono">REACT</p>
+            </div>
+            <div class="minibox">
+                <i class="devicon-git-plain colored"></i>
+                <p class="p-icono">GIT</p>
+            </div>
+        </div>
+    </section> */
