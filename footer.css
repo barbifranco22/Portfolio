@@ -17,7 +17,7 @@ body    {
     align-items: center;
     padding: 50px;
 }
-.github-footer, .twitter-footer, .linkedin-footer    {
+.github-footer, .twitter-footer, .linkedin-footer, .mail-footer    {
    color:#f9a826;
    /* background-color: black; */
    font-size: 20px;  
@@ -50,11 +50,15 @@ body    {
     margin: 5px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    
+    padding: 20px; 
 }
+
 .a-nav-footer   {
     text-decoration: none;
     color: white;
+}
+.a-nav-footer:hover {
+    color: #f9a826;
 }
 
 .text-footer    {
