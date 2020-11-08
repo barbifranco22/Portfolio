@@ -55,8 +55,7 @@ body  {
     background-color: white;
 }
 .caja-proyectos-dentro:hover    {
-    border: 1px solid yellow;
-    background-color: #F5F1B5;
+    border: 2px solid #fc6681;
 }
 .img-proyecto   {
     width: 300px;

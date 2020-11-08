@@ -8,27 +8,28 @@ body    {
 }
 
 header  {
-    background-color: white;
+    background-color: #f6f7fb;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 25px;
+    width: 100%;
+    
 }
 .nav-header {
     display: flex;
     flex-direction: row;
     /* background-color: yellow; */  
     margin-right: 50px;
+    
 }
 
 .li-header  {
-    /* background-color: white; */
     list-style: none;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
 }
 .li-header-contacto {
     background-color: #ff6584;
@@ -42,6 +43,7 @@ header  {
 .a-nav-header    {
     text-decoration: none;
     color: black;
+    display: block;
 }
 .a-nav-header-contacto  {
     text-decoration: none;
@@ -55,3 +57,37 @@ header  {
     border-radius: 20px;
 }
 
+/* boton menu */
+
+#btn-menu   {
+    display: none;
+}
+
+.label-btn-menu {
+    display: block;
+}
+
+@media (max-width:768px)    {
+    .label-btn-menu {
+        display: block;
+    }
+
+    .nav-header{
+        position: absolute;
+        width: 70%;
+        flex-direction: column;
+    }
+}
+
+
+
+/* <header class="header">
+        <input class="input-btn-menu" type="checkbox" id="btn-menu">
+        <label class="label-btn-menu" for="btn-menu"> <i class="fas fa-bars hamburguesa"></i> </label>
+        <nav class="nav-header">
+            <li class="li-header"><a class="a-nav-header" href="#">Hola</a></li>
+            <li class="li-header"><a class="a-nav-header" href="#knowledge">Conocimientos</a></li>
+            <li class="li-header"><a class="a-nav-header" href="#projects">Proyectos</a></li>
+            <li class="li-header-contacto"><a class="a-nav-header-contacto" href="#idcontact">Contacto</a></li>
+        </nav>
+    </header> */
