@@ -43,7 +43,7 @@ header  {
 .a-nav-header    {
     text-decoration: none;
     color: black;
-    display: block;
+    /* display: block; */
 }
 .a-nav-header-contacto  {
     text-decoration: none;
@@ -78,7 +78,6 @@ header  {
         flex-direction: column;
     }
 }
-
 
 
 /* <header class="header">

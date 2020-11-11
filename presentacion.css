@@ -8,7 +8,7 @@ body    {
 }
 .presentacion   {
     background-color: thistle;
-    box-shadow: -5px -5px 10px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: -5px -5px 10px 10px rgba(0, 0, 0, 0.1); */
 }
 .div-presentacion   {
     background-color: white;

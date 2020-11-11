@@ -156,23 +156,22 @@
             <h1 class="h1-contactame">Escribeme</h1>
             <form class="contactame-form-completar" action="">
                 <ul class="form-list">
-                    <li>
-                      <label for="name">Nombre:</label>
-                      <input type="text" id="name"  placeholder="Ingresa tu nombre">
+                    <li class="li-form">
+                        <div class="div-label"><label for="name">Nombre:</label></div>
+                        <input  type="text" id="name"  placeholder="Ingresa tu nombre">
                     </li>
-                    <li>
-                        <label for="name">Apellido:</label>
-                        <input type="text" id="surname"  placeholder="Ingresa tu apellido">
-                      </li>
-                    <li>
-                      <label for="mail">Correo electrónico:</label>
-                      <input type="email" id="mail"  placeholder="Ingresa tu email">
+                    <li class="li-form"> 
+                        <div class="div-label"><label for="name">Apellido:</label></div>
+                        <input  type="text" id="surname"  placeholder="Ingresa tu apellido">   
+                        </li>  
+                    <li class="li-form">
+                        <div class="div-label"><label for="mail">Correo electrónico:</label></div>
+                        <input  type="email" id="mail"  placeholder="Ingresa tu email">
                     </li>
-                    <li>
-                      <label for="msg">Mensaje:</label>
-                      <textarea id="msg" placeholder="Ingresa tu texto"></textarea>
+                    <li class="li-form">
+                        <div class="div-label"><label for="msg">Mensaje:</label></div>
+                        <textarea id="msg" placeholder="Ingresa tu texto" minlength="10" maxlength="150" required></textarea>
                     </li>
-                    <li>
                 </ul>
             </form>
             <button class="contactame-button">Enviar</button>

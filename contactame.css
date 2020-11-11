@@ -44,7 +44,7 @@ body    {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 15px;
-    width: 350px;
+    width: 100%;
 }
 .caja-iconos    {
     display: flex;
@@ -76,11 +76,11 @@ body    {
 .contactame-button  {
     background-color:#ff6584 ;
     border-radius: 100px;
-    width: 100px;
+    width: 150px;
     height: 50px;
-    margin-top: 200px;
+    margin: auto;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     border: none;
     outline: none;
@@ -91,55 +91,26 @@ body    {
 .contactame-form-completar  {
     padding: 15px;
 }
+.li-form    {
+    background-color: white;
+    margin: -10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.div-label {
+    margin: 5px;
+    padding: 5px;
+}
 
-
-
-
-
-
-/* <section class="contacto">
-        <div class="contactame">
-            <h1 class="h1contactame">Contactame</h1>
-            <p class="pcontactame">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus repellat quos vel doloremque quidem alias accusamus eaque tenetur ipsa iste eos, dolor inventore cumque a nulla quibusdam consectetur magnam!</p>
-            <div class="caja-iconos">
-                <a class="contactame-link" href="#">
-                    <i class="devicon-twitter-plain"></i>
-                    <h3 class="h3-icono">@Adalovelace</h3>
-                </a>
-                <a class="contactame-link" href="https://github.com/barbifranco22">
-                    <i class="devicon-github-plain"></i>
-                    <h3 class="h3-icono">barbifranco22</h3>
-                </a>
-                <a class="contactame-link" href="https://www.linkedin.com/in/barbaravillalbafranco">
-                    <i class="devicon-linkedin-plain"></i>
-                    <h3 class="h3-icono">Barbara Villalba</h3>
-                </a>
-            </div>
-        </div>
-
-        <div class="contactame-form" id="idcontact">
-            <h1 class="h1-contactame">Escribeme</h1>
-            <form class="contactame-form-completar" action="">
-                <ul>
-                    <li>
-                      <label for="name">Nombre:</label>
-                      <input type="text" id="name"  placeholder="Ingresa tu nombre">
-                    </li>
-                    <li>
-                        <label for="name">Apellido:</label>
-                        <input type="text" id="surname"  placeholder="Ingresa tu apellido">
-                      </li>
-                    <li>
-                      <label for="mail">Correo electrónico:</label>
-                      <input type="email" id="mail"  placeholder="Ingresa tu email">
-                    </li>
-                    <li>
-                      <label for="msg">Mensaje:</label>
-                      <textarea id="msg" placeholder="Ingresa tu texto"></textarea>
-                    </li>
-                   </ul>
-            </form>
-            <button class="contactame-button">Enviar</button>
-        </div>
-    </section> */
- 
+input   {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+}
+textarea    {
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    outline: none;
+}
