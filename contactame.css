@@ -6,84 +6,74 @@
 body    {
     height: 100vh;
 }
-.contacto   {
-    background-color: #f6f7fb;
-    margin: 70px;
-    padding: 15px;
-    border-radius: 50px;
+ .contacto {
+    background-color: cadetblue;
+    padding: 30px;
+ }
+ .box-contacto  {
+    background-color: cornflowerblue;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-    justify-content: center;
-}
-.contactame {
-    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 50px;
+ }
+ .contactame {
+    background-color: crimson;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    margin: 30px;  
-}
-.contactame-form    {
-    background-color: white;
-    flex-grow: 1;
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+ }
+ .h1contactame  {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+ }
+ .pcontactame    {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+    width: 500px;
+    padding: 20px;
+ }
+
+ .contactame-box    {
+    list-style: none;
     display: flex;
     flex-direction: column;
-    margin: 30px;
-}
-.contactame-link    {
+    background-color: rebeccapurple;
+    align-items: center;
+ }
+ .contactame-list   {
     display: flex;
     flex-direction: row;
-}
-.h1contactame, .h1-contactame   {
+    margin: 10px
+ }
+ .contactame-link   {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+ }
+/* formulario style */
+
+.h1-contactame  {
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
-    font-weight: 600;
-    padding: 15px;
+    padding: 20px;
+    text-align: center; 
 }
-.pcontactame    {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 15px;
-    width: 100%;
-}
-.caja-iconos    {
+
+.formulario    {
+    background-color: palevioletred;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-}
-.contactame-link    {
-    margin-top: 10px;
-    padding: 10px;
-    text-decoration: none;
-    display: flex;
-}
-.contactame-link:hover  {
-    background-color: papayawhip;
-    border-radius: 20px;
-    width: fit-content;
-}
-.h3-icono   {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    margin: 5px;
-    text-decoration: none;
-    color: black;
-}
-.twitter-contacto, .github-contacto, .linkedin-contacto, .mail-contacto {
-    /* padding: 5px; */
-    margin: 5px;
-    color: #ff6584;
-}
-.contactame-button  {
-    background-color:#ff6584 ;
-    border-radius: 100px;
-    width: 150px;
-    height: 50px;
-    margin: auto;
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    outline: none;
+    width: 50%;
+    margin: 10px;
 }
 .form-list  {
     list-style: none;
@@ -100,13 +90,17 @@ body    {
 .div-label {
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 input   {
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 15px;
     outline: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 textarea    {
     width: 100%;
@@ -114,3 +108,64 @@ textarea    {
     border-radius: 15px;
     outline: none;
 }
+
+/* <section class="contacto">
+        <div class="box-contacto">
+
+            <div class="contactame">
+                <h1 class="h1contactame">Contactame</h1>
+                <p class="pcontactame">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus repellat quos vel doloremque quidem alias accusamus eaque tenetur ipsa iste eos, dolor inventore cumque a nulla quibusdam consectetur magnam!</p>
+               <ul class="contactame-box">
+                   <li class="contactame-list">
+                        <a class="contactame-link" href="#">
+                        <i class="devicon-twitter-plain twitter-contacto"></i>
+                        <h3 class="h3-icono">@Adalovelace</h3>
+                        </a>
+                   </li>
+                   <li class="contactame-list">
+                        <a class="contactame-link" href="https://github.com/barbifranco22"target="_blank">
+                        <i class="devicon-github-plain github-contacto"></i>
+                        <h3 class="h3-icono">barbifranco22</h3>
+                        </a>
+                   </li>
+                   <li class="contactame-list">
+                        <a class="contactame-link" href="https://www.linkedin.com/in/barbaravillalbafranco"target="_blank">
+                        <i class="devicon-linkedin-plain linkedin-contacto"></i>
+                        <h3 class="h3-icono">Barbara Villalba</h3>
+                        </a>
+                   </li>
+                   <li class="contactame-list">
+                        <a class="contactame-link" href="mailto:barbara.villalbaf@hotmail.com">
+                        <i class="far fa-envelope-open email-icon mail-contacto"></i>
+                        <h3 class="h3-icono">barbara.villalbaf@hotmail.com</h3>
+                        </a>
+                   </li>
+                </ul>
+            </div>
+                
+            <div class="formulario">
+                <h1 class="h1-contactame">Escribeme</h1>
+                <form class="contactame-form-completar" action="">
+                    <ul class="form-list">
+                        <li class="li-form">
+                            <div class="div-label"><label for="name">Nombre:</label></div>
+                            <input  type="text" id="name"  placeholder="Ingresa tu nombre">
+                        </li>
+                        <li class="li-form"> 
+                            <div class="div-label"><label for="name">Apellido:</label></div>
+                            <input  type="text" id="surname"  placeholder="Ingresa tu apellido">   
+                        </li>  
+                        <li class="li-form">
+                            <div class="div-label"><label for="mail">Correo electrónico:</label></div>
+                            <input  type="email" id="mail"  placeholder="Ingresa tu email">
+                        </li>
+                        <li class="li-form">
+                            <div class="div-label"><label for="msg">Mensaje:</label></div>
+                            <textarea id="msg" placeholder="Ingresa tu texto" minlength="10" maxlength="150" required></textarea>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            
+        </div>     
+    </section> */
