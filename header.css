@@ -79,6 +79,11 @@ header  {
     }
 }
 
+@media (max-with: 375px) {
+    .nav-header {
+        display: none;
+    }
+}
 
 /* <header class="header">
         <input class="input-btn-menu" type="checkbox" id="btn-menu">
