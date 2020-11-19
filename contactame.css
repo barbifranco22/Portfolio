@@ -26,6 +26,7 @@ body    {
     flex-direction: column;
     width: 50%;
     margin: 10px;
+    box-sizing: border-box;
     
  }
  .h1contactame  {
@@ -89,6 +90,7 @@ body    {
     flex-direction: column;
     width: 50%;
     margin: 10px;
+    box-sizing: border-box;
 }
 .form-list  {
     list-style: none;

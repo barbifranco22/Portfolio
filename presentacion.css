@@ -57,6 +57,8 @@ body    {
     flex-grow: 1;
     margin: 50px;
 }
+
+
 /* .aside-presentacion {
     background-color: yellowgreen;
 } */
@@ -65,7 +67,7 @@ body    {
     background-color: white; 
     display: flex;
     flex-grow: 1; 
-    flex-grow: inherit;  
+    /* flex-grow: inherit;  */ 
     margin: 50px;
 }
 .img-presentacion   {

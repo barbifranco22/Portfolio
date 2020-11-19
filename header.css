@@ -8,20 +8,24 @@ body    {
 }
 
 header  {
-    background-color: #f6f7fb;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 25px;
     width: 100%;
+    background-color: #f6f7fb;
+    position: fixed;
     
 }
 .nav-header {
     display: flex;
     flex-direction: row;
+}
+.div-header {
+    display: flex;
+    flex-direction: row;
     /* background-color: yellow; */  
-    margin-right: 50px;
-    
+    /* margin-right: 50px; */
 }
 
 .li-header  {
@@ -31,6 +35,7 @@ header  {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .li-header-contacto {
     background-color: #ff6584;
     list-style: none;
@@ -57,33 +62,30 @@ header  {
     border-radius: 20px;
 }
 
-/* boton menu */
-
-#btn-menu   {
+.li-header-icon {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ul-header-icon {
     display: none;
 }
 
-.label-btn-menu {
-    display: block;
-}
+/* boton menu */
 
-@media (max-width:768px)    {
-    .label-btn-menu {
-        display: block;
-    }
-
-    .nav-header{
-        position: absolute;
-        width: 70%;
-        flex-direction: column;
-    }
-}
-
-@media (max-with: 375px) {
-    .nav-header {
+@media (max-width: 410px) {
+    .div-header {
         display: none;
     }
+    .ul-header-icon {
+        display: flex;
+        flex-direction: row;
+    }
 }
+
+
 
 /* <header class="header">
         <input class="input-btn-menu" type="checkbox" id="btn-menu">
