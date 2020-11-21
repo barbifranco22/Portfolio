@@ -80,7 +80,7 @@ body    {
     border-radius: 50%;
 }
 
-@media  (max-width: 900px) {
+@media  (min-width:320px) and (max-width:900px) {
     .img-presentacion   {
         width: 150px;
         height: 150px;
