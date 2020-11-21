@@ -77,12 +77,14 @@ header  {
 /* boton menu */
 
 @media (min-width:320px) and (max-width:900px) {
+    header {
+        height: 50px;
+    }
     .div-header {
         display: none;
     }
     .ul-header-icon {
-        display: flex;
-        flex-direction: row;
+        display: none
     }
 }
 

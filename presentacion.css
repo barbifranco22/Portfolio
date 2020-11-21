@@ -44,8 +44,8 @@ body    {
     margin-top: 50px;
     height: 50px;
 }
-.button-presentacion:hover  {
-    color: black;
+.a-button-presentacion  {
+    text-decoration: none;
 }
 .text-button    {
     font-size: 20px;
