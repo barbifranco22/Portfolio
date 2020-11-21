@@ -76,7 +76,7 @@ header  {
 
 /* boton menu */
 
-@media (max-width: 410px) {
+@media (max-width: 900px) {
     .div-header {
         display: none;
     }

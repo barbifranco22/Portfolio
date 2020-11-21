@@ -73,7 +73,7 @@ span    {
     color: #f9a826;
 }
 
-@media (max-width: 320px)   {
+@media (max-width: 900px)   {
     .nav-footer {
         display: none;
     }

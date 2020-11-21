@@ -148,7 +148,7 @@ textarea    {
     color: white;   
 }
 
-@media (max-width: 320px)  {
+@media (max-width: 900px)  {
     .box-contacto   {
         display: flex;
         flex-direction: column;
