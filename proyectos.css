@@ -73,8 +73,8 @@ body  {
 @media (min-width:320px) and (max-width:900px)  {
     .pmisproyectos  {
         display: flex;
-        flex-shrink: inherit;
-        width: 75%;
+        width: 100px;
+        font-size: auto;
     }
 }
     

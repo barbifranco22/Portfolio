@@ -42,14 +42,15 @@ body    {
     border-style: none;
     outline: none;
     margin-top: 50px;
+    height: 50px;
+}
+.button-presentacion:hover  {
+    color: black;
 }
 .text-button    {
     font-size: 20px;
     text-shadow: 1px 1px 2px black;
     color: white;
-}
-.a-button-presentacion  {
-    text-decoration: none;
 }
 .text-presentacion {
     display: flex;
