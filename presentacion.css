@@ -8,12 +8,12 @@ body    {
 }
 .presentacion   {
     background-color: thistle;
-    /* box-shadow: -5px -5px 10px 10px rgba(0, 0, 0, 0.1); */
+
 }
 .div-presentacion   {
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 .h2-presentacion    {
     font-size: 30px;
@@ -26,36 +26,40 @@ body    {
     font-weight: 900px;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px 2px grey;
+    margin: 35px;
 }
 .p-presentacion {
     color: black;
     font-family: 'Montserrat', sans-serif;
+    margin: 35px;
 
-}
-.p-presentacion, .h1-presentacion, .h2-presentacion, .button-presentacion {
-    margin: 7px;
-    padding: 7px;
 }
 .button-presentacion    {
     width: 150px;
     background-color: #ff6584;
-    color: white;
     border-radius: 20px;
-    margin: 15px;
-    padding: 10px;
-    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     border-style: none;
     outline: none;
-    text-shadow: 1px 1px 2px black;
+    margin-top: 50px;
 }
-.aside-presentacion {
+.text-button    {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+.a-button-presentacion  {
+    text-decoration: none;
+}
+.text-presentacion {
     display: flex;
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    /* margin: 50px; */
+    /* background-color: blueviolet; */
     flex-grow: 1;
-    margin: 50px;
+    align-items: center;
 }
 
 
@@ -63,14 +67,30 @@ body    {
     background-color: yellowgreen;
 } */
 .figure-presentacion    {
-    /* width: 500px; height: 500px; */
-    background-color: white; 
+    /* background-color: blue;  */
     display: flex;
-    flex-grow: 1; 
-    /* flex-grow: inherit;  */ 
-    margin: 50px;
+    flex-grow: 1;
+    justify-content: center;
 }
 .img-presentacion   {
-    width: 600px; height: 600px;
-    background-color: white;   
+    display: flex; 
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+@media  (max-width: 320px) {
+    .img-presentacion   {
+        width: 150px;
+        height: 150px;
+    }
+    .h1-presentacion    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .div-presentacion   {
+        display: flex;
+        flex-direction: column;
+    }
 }

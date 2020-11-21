@@ -13,6 +13,7 @@ body  {
     /* margin-bottom: 100px; */
     background-color: #f6f7fb;
     padding-bottom: 50px;
+    width: 100%;
 } 
 .mis-proyectos   {
     display: flex;
@@ -69,4 +70,11 @@ body  {
     padding: 15px;
 }
 
+@media (max-width:320px)    {
+    .pmisproyectos  {
+        display: flex;
+        flex-shrink: inherit;
+        width: 100%;
+    }
+}
     

@@ -9,6 +9,7 @@ body    {
 
 .footer {
     background-color: #ff6584;
+    width: 100%;
 }
 .footer-content {
     display: flex;
@@ -72,34 +73,11 @@ span    {
     color: #f9a826;
 }
 
+@media (max-width: 320px)   {
+    .nav-footer {
+        display: none;
+    }
+}
 
 
 
-/* <footer class="footer">
-<div class="footer-content">
-
-    <nav class="nav-footer">
-        <li class="li-nav-footer"><a href="#">Hola</a></li>
-        <li class="li-nav-footer"><a href="#">Conocimientos</a></li>
-        <li class="li-nav-footer"><a href="#">Proyectos</a></li>
-        <li class="li-nav-footer"><a href="#">Contacto</a></li>
-    </nav>
-
-    <nav class="nav-footer-icon">
-
-        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
-            <i class="devicon-twitter-plain twitter-footer "></i></a>
-        </li>
-        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
-            <i class="devicon-github-plain github-footer"></i></a>
-        </li>
-        <li class="li-nav-icon-footer"><a class="a-icon-footer"  href="#">
-            <i class="devicon-linkedin-plain linkedin-footer "></i></a>
-        </li>
-
-    </nav>
-
-    <p>Hecho con ♥ por Barbara Villalba</p>
-
-</div>
-</footer> */
